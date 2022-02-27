@@ -5,7 +5,7 @@ from homeDescription.models import Description
 
 class descriptionAdmin(admin.ModelAdmin):
     def has_add_permission(self, request, obj=None):
-        return False
+        return True
     def has_delete_permission(self, request, obj=None):
         return False
 admin.site.register(Description, descriptionAdmin)
