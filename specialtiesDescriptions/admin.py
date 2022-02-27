@@ -1,3 +1,4 @@
+from pickle import FALSE
 from django.contrib import admin
 from specialtiesDescriptions.models import *
 
@@ -6,7 +7,7 @@ from specialtiesDescriptions.models import *
 
 class specAdmin(admin.ModelAdmin):
     def has_add_permission(self, request, obj=None):
-        return True
+        return FALSE
     def has_delete_permission(self, request, obj=None):
         return False
 
