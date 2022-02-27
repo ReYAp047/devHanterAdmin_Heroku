@@ -93,11 +93,11 @@ WSGI_APPLICATION = 'devHanterAdmin.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ddurk4beojmorl',
-        'USER': 'qphcbleamzzcxi',
-        'PASSWORD': '1c47c0c176b59ed967abbeadb4fd387b403c5bc2351c9871114a98b890fdbc67',
-        'HOST': 'ec2-44-194-113-156.compute-1.amazonaws.com',
+        'ENGINE': 'ec2-54-195-76-73.eu-west-1.compute.amazonaws.com',
+        'NAME': 'd9f7pf9kdrs3ep',
+        'USER': 'ruxykfnccqgdsm',
+        'PASSWORD': '1a1457df873177074559060b3f14f40cec89f136a2377d0a430384e5d050c1b7',
+        'HOST': 'ec2-54-195-76-73.eu-west-1.compute.amazonaws.com',
         'PORT': '5432',
     }
 }
